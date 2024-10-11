@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" href="assets/img/logo.ico" type="image/x-icon">
+        <title>Responsive navigation bar - Bedimcode</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav-data">
+                    <a href="index.html" class="nav-logo">
+                        <!-- <i class="fa fa-user" aria-hidden="true"></i> CodeBox -->
+                        <img src="assets/img/logotext.png" alt="" class="logo_h">
+                    </a>
+    
+                    <div class="nav-toggle bg_white" id="nav-toggle">
+                        <i class="fas fa-bars nav-toggle-menu"></i>
+                        <i class="fas fa-times nav-toggle-close"></i>
+                    </div>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="dropdown-item">                      
+                            <div class="nav-link dropdown-button">
+                                Especialidades <div class="dropdown-arrow"><i class="fa fa-angle-down"></i></div>
+                            </div>
+
+                            <div class="dropdown-container">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-group">
+                                        <!-- <div class="dropdown-icon">
+                                            <i class="fa fa-arrows" aria-hidden="true"></i>
+                                        </div>
+     -->
+                                        <span class="dropdown-title" >Especialidades Médicas</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Medicina general</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Medicina interna</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Cardiología</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Psicología</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-group">
+                                        <!-- <div class="dropdown-icon">
+                                            <i class="fa fa-arrows" aria-hidden="true"></i>
+                                        </div>
+     -->
+                                        <span class="dropdown-title" >Salud Femenina</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Ginecología</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Obstetricia</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown-group">
+                                        <!-- <div class="dropdown-icon">
+                                            <i class="fa fa-arrows" aria-hidden="true"></i>
+                                        </div> -->
+    
+                                        <span class="dropdown-title">Cuidado Odontológico</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Odontologia</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown-group">
+                                        <!-- <div class="dropdown-icon">
+                                            <i class="fa fa-arrows" aria-hidden="true"></i>
+                                        </div> -->
+    
+                                        <span class="dropdown-title">Terapias</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Fisioterapia y Rehabilitación</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="nav-link dropdown-button">
+                                Servicios <div class="dropdown-arrow"><i class="fa fa-angle-down"></i></div>
+                            </div>
+
+                            <div class="dropdown-container">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-group">
+    
+                                        <span class="dropdown-title">Servicios de Atención Médica</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Electrocardiograma</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown-group">
+                                        <span class="dropdown-title">Servicios Radiologia</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Radio X Completo
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Radio X Dental</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown-group">
+
+    
+                                        <span class="dropdown-title">Servicios Ecografías</span>
+    
+                                        <ul class="dropdown-list">
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Ecografía Renal
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Ecografía Pélvica
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-link"><i class="fas fa-circle"></i>Ecografía Intravaginal</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="staff.html" class="nav-link">Staff Medico</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <header class="encabezado">
+            <div class="contenido-encabezado">
+                <div class="logo">
+                    <h2 class="tyscript" id="typing-text"></h2>
+                </div>
+                <div class="formulario-encabezado">
+                    <h2>Agende una cita</h2>
+                    <form>
+                        <div class="input-encabezado">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="input-encabezado">
+                            <input type="email" placeholder="Correo Electrónico" required>
+                        </div>
+                        <div class="input-encabezado">
+                            <input type="text" placeholder="Mensaje" required>
+                        </div>
+                        <button type="submit" class="btn azul">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+    
+
+        <section class="contenedor_card">
+            <div class="card">
+                <img src="assets/img/fondo.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h2>Centro Médico Especializado y Salud Ocupacional: Santo Toribio de Mogrovejo EIRL  </h2>
+                    <p><i class="fas fa-map-marker-alt icon"></i><strong> Ubicación:</strong> Urb. Sebastián Barranca Lote A-21, Santiago, Ica</p>
+                    <p><i class="fas fa-phone-alt icon"></i><strong> Teléfono:</strong> 056-402255</p>
+                    <p><i class="fas fa-clock icon"></i><strong> Horario:</strong> 8:00 - 20:00</p>
+                    <p><i class="fas fa-tags icon"></i><strong> Categoría:</strong> I-4</p>
+                    <p><i class="fas fa-info-circle icon"></i><strong> Descripción:</strong> Establecimiento de salud enfocado en la integridad y salud de la comunidad, ofreciendo atención de calidad y prevención de enfermedades.</p>
+                    <p><i class="fas fa-hospital-alt icon"></i><strong> Dirección de Salud:</strong> DISA Ica</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="especialidades">
+            <div class="contenido-especialidades">
+                <div class="especialidad">
+                    <img src="assets/img/medicina--.png" alt="" height="40px">
+                    <h3>Medicina General</h3>
+                    <p>Los médicos generales son la primera línea de atención en salud. Se encargan de diagnosticar y tratar una amplia variedad de problemas de salud, así como de realizar chequeos rutinarios y prevenir enfermedades. Su enfoque integral permite la detección temprana de condiciones que requieren atención especializada.</p>
+                    <a href="#" class="ver-especialidad">Ver especialidad <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="especialidad">
+                    <img src="assets/img/fisioterapia--.png" alt="" height="40px">
+                    <h3>Fisioterapia</h3>
+                    <p>La fisioterapia es una disciplina de la salud que se centra en la prevención, tratamiento y rehabilitación de lesiones y disfunciones físicas mediante el uso de técnicas manuales, ejercicios terapéuticos y tecnología. Su objetivo principal es mejorar la movilidad, reducir el dolor y facilitar la recuperación funcional de los pacientes.</p>
+                    <a href="#" class="ver-especialidad">Ver especialidad <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="especialidad">
+                    <img src="assets/img/cardiologia--.png" alt="" height="40px">
+                    <h3>Cardiología</h3>
+                    <p>Los cardiólogos se especializan en el diagnóstico y tratamiento de enfermedades del corazón y del sistema circulatorio. Su labor es crucial para abordar problemas como la hipertensión, insuficiencia cardíaca y enfermedades coronarias, contribuyendo significativamente a la salud cardiovascular de la población.</p>
+                    <a href="#" class="ver-especialidad">Ver especialidad <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="especialidad">
+                    <img src="assets/img/ginecologia--.png" alt="" height="40px">
+                    <h3>Ginecología</h3>
+                    <p>Esta especialidad se ocupa de la salud reproductiva de las mujeres, abarcando desde el diagnóstico y tratamiento de trastornos ginecológicos hasta la atención prenatal. Los ginecólogos juegan un papel vital en la prevención y manejo de enfermedades, así como en el cuidado de la salud durante el embarazo.</p>
+                    <a href="#" class="ver-especialidad">Ver especialidad <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="especialidad">
+                    <img src="assets/img/psicologia--.png" alt="" height="40px">
+                    <h3>Psicología</h3>
+                    <p>Los psicólogos se dedican al estudio y tratamiento de los trastornos mentales y emocionales. Su enfoque incluye terapias que ayudan a los pacientes a manejar el estrés, la ansiedad, la depresión y otros problemas psicológicos. La salud mental es esencial para el bienestar general, lo que hace a esta especialidad particularmente relevante.</p>
+                    <a href="#" class="ver-especialidad">Ver especialidad <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor">
+            <button class="mi-boton">Mas especialidades <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    
+    
+        <section class="convenios">
+            <h2>Nuestros Convenios</h2>
+            <div class="contenido-convenios">
+                <div class="convenio">
+                    <img src="assets/img/imagen1.png" alt="Empresa 1">
+                </div>
+                <div class="convenio">
+                    <img src="assets/img/imagen2.png" alt="Empresa 2">
+                </div>
+                <div class="convenio">
+                    <img src="assets/img/imagen3.png" alt="Empresa 3">
+                </div>
+                <div class="convenio">
+                    <img src="assets/img/imagen4.png" alt="Empresa 4">
+                </div>
+                <div class="convenio">
+                    <img src="assets/img/imagen5.png" alt="Empresa 5">
+                </div>
+            </div>
+        </section>
+        <div class="contenedor">
+            <button class="mi-boton">Mas convenios <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    
+        <section class="sede">
+            <h2>Nuestras Sedes</h2>
+            <div class="contenido-sede">
+                <div class="informacion-sede sede-1">
+                <div class="texto-sede">
+                    <p>Dirección: Calle Ejemplo 123, Ciudad</p>
+                    <p>Teléfono: +51 123 456 789</p>
+                    <p>Email: contacto@ejemplo.com</p>
+                </div>
+            </div>
+            <div class="informacion-sede sede-2">
+                <div class="texto-sede">
+                    <p>Dirección: Calle Ejemplo 456, Ciudad</p>
+                    <p>Teléfono: +51 987 654 321</p>
+                    <p>Email: info@ejemplo.com</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <div class="contenedor">
+            <button class="mi-boton">Mas sedes <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>  
+    
+        <footer class="footer">
+            <!-- Encabezado del Footer -->
+            <div class="footer-header">
+                
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <img src="https://www.clinicainternacional.com.pe/static/img/header-logo-colores.png" alt="Logo Proyecto">
+                    </div>
+                    <div class="footer-column">
+                        <a href="#">Términos y Condiciones</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="#">Política de Privacidad</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="#">Política de Cookies</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="#">Libro de Reclamaciones</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Cuerpo del Footer -->
+            <div class="footer-body">
+                <div class="footer-columns">
+                    <div class="footer-column left-footer">
+                        <a href="#">Quiénes Somos</a>
+                        <a href="#">Acreditaciones</a>
+                        <a href="#">Convenios de Salud</a>
+                        <a href="#">Especialidades</a>
+                        <a href="#">Sedes</a>
+                    </div>
+                    <div class="footer-column left-footer">
+                        <a href="#">Vida Saludable</a>
+                        <a href="#">Resultados de Laboratorio</a>
+                        <a href="#">Directorio Médico</a>
+                        <a href="#">Flujo de Reclamaciones</a>
+                        <a href="#">Comprobante Electrónico</a>
+                    </div>
+                    <div class="footer-column left-footer">
+                        <a href="#">Condiciones de uso Médico Virtual</a>
+                        <a href="#">Canal de Integridad</a>
+                        <a href="#">Términos y Condiciones Consultorio Virtual</a>
+                    </div>
+                    <div class="footer-column left-footer">
+                        <a href="#">Términos y Condiciones Pruebas Covid</a>
+                        <a href="#">Términos y Condiciones Campañas Comerciales</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Final del Footer -->
+            <div class="footer-final">
+                <p>&copy; 2024. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/typing.js"></script>
+    </body>
+</html>
